@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 async function main() {
   const provider = new ethers.JsonRpcProvider("https://eth-sepolia.public.blastapi.io");
 
-  const privateKey = "0x58c438eba160c7e0194edbec41a28adf9253ba899d539368fe44b66fc0444e77"; 
+  const privateKey = "PRIVATE_KEY"; 
   const wallet = new ethers.Wallet(privateKey, provider);
 
   const abi = [
